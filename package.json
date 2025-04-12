@@ -10,8 +10,14 @@
     "lint": "eslint .",
     "tsc:watch": "tsc -b --noEmit --watch"
   },
+  "dependencies": {
+    "gsap": "^3.12.7",
+    "pixi.js": "^8.9.1",
+    "tweakpane": "^4.0.5"
+  },
   "devDependencies": {
     "@eslint/js": "^9.24.0",
+    "@tweakpane/core": "^2.0.5",
     "eslint": "^9.24.0",
     "globals": "^16.0.0",
     "typescript": "~5.7.2",
